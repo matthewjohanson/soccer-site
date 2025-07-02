@@ -2,48 +2,85 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <meta name="description" content="Simple soccer drills, tips, and gear for youth coaches." />
-  <title>Coach Matt’s Soccer Site</title>
-  <link rel="stylesheet" href="assets/css/styles.css" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beginning Soccer Coach</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-
   <header>
-    <img src="assets/images/hero.jpg" alt="Soccer Practice" style="width: 100%; max-height: 300px; object-fit: cover;" />
-    <nav style="padding: 1rem; background-color: #004d40; color: white;">
-      <a href="index.html">Home</a> |
-      <a href="articles/article1.html">Articles</a> |
-      <a href="about.html">About</a>
+    <h1>Beginning Soccer Coach</h1>
+    <p class="tagline">Your friendly guide to coaching kids in soccer</p>
+    <nav>
+      <ul>
+        <li><a href="#u4-u5">U4–U5 Coaches</a></li>
+        <li><a href="#age-groups">By Age Group</a></li>
+        <li><a href="#drills">Practice Drills</a></li>
+        <li><a href="#game-day">Game Day Tips</a></li>
+        <li><a href="#gear">Gear Guide</a></li>
+      </ul>
     </nav>
   </header>
 
   <main>
-    <h1>Coach Matt’s Soccer Site</h1>
-    <p>Your go-to guide for youth coaching, drills, and affordable gear.</p>
+    <section id="hero">
+      <h2>New to Coaching Soccer?</h2>
+      <p>We’ll help you go from nervous to confident — with simple tips, drills, and guides for every age group.</p>
+      <a class="cta-button" href="#u4-u5">Start Coaching Now</a>
+    </section>
 
-    <h2>Featured Articles</h2>
-    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem;">
+    <section id="u4-u5" class="feature">
+      <img src="images/u4-u5.jpg" alt="Coach with young players">
       <div>
-        <img src="assets/images/drill1.jpg" alt="U12 Drill" style="width: 100%; border-radius: 8px;" />
-        <p><a href="articles/article1.html">5 Drills Every U12 Coach Should Know</a></p>
+        <h3>Start Here: U4–U5 Coaches</h3>
+        <p>Perfect for brand new coaches. Learn how to run your first practice and keep little players engaged.</p>
+        <a href="articles/u4-intro.html">Read U4–U5 Articles</a>
       </div>
-      <div>
-        <img src="assets/images/drill2.jpg" alt="Tournament Prep" style="width: 100%; border-radius: 8px;" />
-        <p><a href="articles/article2.html">What to Pack for Your First Tournament Day</a></p>
-      </div>
-    </div>
+    </section>
 
-    <h2>Recommended Gear</h2>
-    <div style="display: flex; gap: 1rem; align-items: center;">
-      <img src="assets/images/cones.jpg" alt="Training Cones" style="width: 100px; border-radius: 4px;" />
-      <p><a href="https://www.amazon.com/example-affiliate-link">Our favorite cones on Amazon</a></p>
-    </div>
+    <section id="age-groups" class="feature">
+      <img src="images/age-groups.jpg" alt="Soccer practice by age">
+      <div>
+        <h3>Coaching by Age Group</h3>
+        <p>Find articles tailored to U6, U8, and older teams. What works for toddlers won't work for 10-year-olds!</p>
+        <a href="age-groups.html">Browse by Age</a>
+      </div>
+    </section>
+
+    <section id="drills" class="feature">
+      <img src="images/drills.jpg" alt="Soccer cones and practice">
+      <div>
+        <h3>Practice Drills</h3>
+        <p>Simple, fun drills to improve passing, spacing, and teamwork. Great for short attention spans.</p>
+        <a href="drills.html">See Drills</a>
+      </div>
+    </section>
+
+    <section id="game-day" class="feature">
+      <img src="images/game-day.jpg" alt="Soccer game day setup">
+      <div>
+        <h3>Game Day Tips</h3>
+        <p>What to bring, how to manage subs, and tips for encouraging kids on the sideline.</p>
+        <a href="game-day.html">Learn More</a>
+      </div>
+    </section>
+
+    <section id="gear" class="feature">
+      <img src="images/gear.jpg" alt="Soccer gear">
+      <div>
+        <h3>Coach Gear Guide</h3>
+        <p>Our favorite cleats, cones, and coach accessories. All affiliate-linked for convenience.</p>
+        <a href="gear.html">See Gear Picks</a>
+      </div>
+    </section>
+
+    <section id="adsense">
+      <!-- AdSense block placeholder -->
+      <p>Ad placeholder (to be activated later)</p>
+    </section>
   </main>
 
   <footer>
-    <p>&copy; 2025 Coach Matt. All rights reserved. Test deployment Round 8</p>
+    <p>&copy; 2025 Beginning Soccer Coach. All rights reserved.</p>
   </footer>
-
 </body>
 </html>
