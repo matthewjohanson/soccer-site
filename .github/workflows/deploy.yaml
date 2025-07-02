@@ -21,4 +21,4 @@ jobs:
     - name: Deploy to Cloudways
       run: |
         ssh -o StrictHostKeyChecking=yes ${{ secrets.SFTP_USERNAME }}@${{ secrets.SSH_HOST }} \
-        "cd /home/${{ secrets.SFTP_USERNAME }}/applications/bnrzkepymx/public_html && git pull origin main"
+        "cd /home/master/applications/bnrzkepymx/public_html && git pull origin main"
