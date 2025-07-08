@@ -1,61 +1,222 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>BeginningSoccer.com</title>
-  <link rel="stylesheet" href="assets/css/styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beginning Soccer | The Fun Starts Here</title>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Simple Icons (You can use a library like Font Awesome for more) -->
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
 </head>
 <body>
-  <header>
+
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <a href="#" class="logo">Beginning<span class="highlight">Soccer</span>.com</a>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#players">For Players</a></li>
+                    <li><a href="#parents">For Parents</a></li>
+                    <li><a href="#coaches">For Coaches</a></li>
+                    <li><a href="#guides">Guides</a></li>
+                </ul>
+            </nav>
+            <div class="header-cta">
+                <a href="#guides" class="btn btn-primary">Get Started</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Your Guide to the Beautiful Game</h1>
+            <p>Master the basics, understand the rules, and find expert tips for players, parents, and coaches.</p>
+            <a href="#players" class="btn btn-primary btn-lg">Start Exploring</a>
+        </div>
+    </section>
+
+    <!-- Ad Placeholder: Top Banner -->
     <div class="container">
-      <h1>BeginningSoccer.com</h1>
-      <p class="tagline">Your friendly guide to coaching kids in soccer</p>
-      <nav>
-        <ul>
-          <li><a href="#coaches">Coaches</a></li>
-          <li><a href="#players">Players</a></li>
-          <li><a href="#parents">Parents</a></li>
-        </ul>
-      </nav>
+        <div class="ad-placeholder">
+            <span>728x90 Banner Ad</span>
+        </div>
     </div>
-  </header>
 
-  <section class="hero">
-    <img src="assets/images/image1.jpg" alt="Hero image showing kids playing soccer" />
-  </section>
-
-  <main class="container">
-    <section id="coaches" class="section">
-      <h2>For Coaches</h2>
-      <img src="assets/images/image2.jpg" alt="Soccer coach with young players" />
-      <p>Resources and practice drills for new and experienced coaches. Start with age-specific tips and expand your coaching toolkit.</p>
-      <a href="articles/u4-u5.html" class="button">Start with U4–U5 Coaching</a>
+    <!-- Audience Section -->
+    <section id="players" class="audience-section">
+        <div class="container">
+            <div class="section-intro">
+                <h2>A Community for Everyone</h2>
+                <p>Whether you're kicking a ball for the first time, cheering from the sidelines, or leading a team, we have the tools you need to succeed.</p>
+            </div>
+            <div class="audience-cards">
+                <!-- Card for Players -->
+                <div class="card">
+                    <div class="icon">⚽</div>
+                    <h3 id="players">For Players</h3>
+                    <p>Learn awesome skills, play fun games, and master the fundamentals. Check out our video tutorials and easy-to-follow drills.</p>
+                    <a href="#" class="btn btn-secondary">Explore Skills</a>
+                </div>
+                <!-- Card for Parents -->
+                <div class="card">
+                    <div class="icon">❤️</div>
+                    <h3 id="parents">For Parents</h3>
+                    <p>Get all the info you need—from our guides to the <em><!-- Affiliate Link Example -->best beginner cleats</em> to sideline etiquette and supporting your young athlete.</p>
+                    <a href="#" class="btn btn-secondary">Find Parent Guides</a>
+                </div>
+                <!-- Card for Coaches -->
+                <div class="card">
+                    <div class="icon">📋</div>
+                    <h3 id="coaches">For Coaches</h3>
+                    <p>Access free, easy-to-use drill libraries, practice plans, and coaching tips designed specifically for beginner-level teams.</p>
+                    <a href="#" class="btn btn-secondary">Open Coach's Playbook</a>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="players" class="section">
-      <h2>For Players</h2>
-      <img src="assets/images/image3.jpg" alt="Young soccer player dribbling" />
-      <p>Fun games and skill-building tips to help your child enjoy the game and grow with confidence.</p>
+    <!-- Recommended Gear (Affiliate) Section -->
+    <section class="gear-section">
+        <div class="container">
+            <h2>Recommended Beginner Gear</h2>
+            <div class="gear-grid">
+                <!-- Product 1 -->
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1622162652937-252e0050e05a?q=80&w=1974&auto=format&fit=crop" alt="Soccer Cleats">
+                    <div class="product-card-content">
+                        <h4>Beginner Soccer Cleats</h4>
+                        <p>Comfortable and durable, perfect for first-time players.</p>
+                        <a href="#" class="btn btn-secondary">Check Price</a>
+                    </div>
+                </div>
+                <!-- Product 2 -->
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1551958214-2d5b81a7a086?q=80&w=2070&auto=format&fit=crop" alt="Soccer Ball">
+                    <div class="product-card-content">
+                        <h4>Size 4 Soccer Ball</h4>
+                        <p>The ideal size and weight for young players aged 8-12.</p>
+                        <a href="#" class="btn btn-secondary">Check Price</a>
+                    </div>
+                </div>
+                <!-- Product 3 -->
+                <div class="product-card">
+                    <img src="https://images.unsplash.com/photo-1607962837339-3651347c3452?q=80&w=1999&auto=format&fit=crop" alt="Shin Guards">
+                    <div class="product-card-content">
+                        <h4>Protective Shin Guards</h4>
+                        <p>A must-have for safety during practices and games.</p>
+                        <a href="#" class="btn btn-secondary">Check Price</a>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
-    <section id="parents" class="section">
-      <h2>For Parents & Family</h2>
-      <img src="assets/images/image4.jpg" alt="Parents cheering from the sideline" />
-      <p>Guidance for supporting your player, understanding the game, and making the soccer season smooth and fun.</p>
+    <!-- Popular Guides & Sidebar Ad Section -->
+    <section id="guides" class="guides-section">
+        <div class="container">
+            <div class="guides-layout">
+                <div class="guides-content">
+                    <h2>Popular Guides & Articles</h2>
+                    <div class="guide-item">
+                        <h3>Understanding Offside for Beginners</h3>
+                        <p>We break down one of soccer's most confusing rules with simple explanations and diagrams. You'll get it in 5 minutes!</p>
+                        <a href="#">Read More →</a>
+                    </div>
+                    <div class="guide-item">
+                        <h3>5 Fun Drills for Your First Practice</h3>
+                        <p>First-time coach? Keep kids engaged and smiling with these proven, fun, and easy-to-run drills.</p>
+                        <a href="#">See the Drills →</a>
+                    </div>
+                     <div class="guide-item">
+                        <h3>Parent's Sideline Survival Guide</h3>
+                        <p>Learn the do's and don'ts of being a great soccer parent, from what to pack to how to cheer effectively.</p>
+                        <a href="#">Get the Guide →</a>
+                    </div>
+                </div>
+                <aside class="guides-sidebar">
+                    <!-- Ad Placeholder: Sidebar -->
+                    <div class="ad-placeholder ad-sidebar">
+                        <span>300x250 Box Ad</span>
+                    </div>
+                    <div class="ad-placeholder ad-sidebar">
+                        <span>300x250 Box Ad</span>
+                    </div>
+                </aside>
+            </div>
+        </div>
     </section>
 
-    <section class="gear">
-      <h2>Recommended Gear</h2>
-      <img src="assets/images/image5.jpg" alt="Soccer ball and gear" />
-      <p>Browse beginner-friendly soccer gear for kids and families. All our links are carefully selected and affiliate-supported.</p>
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Our Readers Are Saying</h2>
+            <div class="testimonial-grid">
+                <div class="testimonial-card">
+                    <p>"I finally understand the offside rule! The articles here are so clear and helpful. Thank you for making soccer less intimidating."</p>
+                    <div class="author">- David L. <span>New Soccer Dad</span></div>
+                </div>
+                <div class="testimonial-card">
+                    <p>"As a first-time volunteer coach, the practice plans on this site were a lifesaver. Simple, effective, and the kids loved them."</p>
+                    <div class="author">- Mike R. <span>U-8 Coach</span></div>
+                </div>
+                <div class="testimonial-card">
+                    <p>"My son used the dribbling tutorial video and has been practicing in the backyard ever since. He's so much more confident!"</p>
+                    <div class="author">- Emily W. <span>Soccer Mom</span></div>
+                </div>
+            </div>
+        </div>
     </section>
-  </main>
 
-  <footer>
-    <div class="container">
-      <p>&copy; 2025 BeginningSoccer.com | All rights reserved.</p>
-    </div>
-  </footer>
+    <!-- Newsletter CTA Section -->
+    <section class="newsletter-section">
+        <div class="container">
+            <h2>Get Weekly Tips & Drills</h2>
+            <p>Join our free newsletter to get the latest beginner soccer content delivered right to your inbox.</p>
+            <form class="newsletter-form">
+                <input type="email" placeholder="Enter your email" required>
+                <button type="submit" class="btn btn-primary">Subscribe</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-grid-item">
+                    <h4>Beginning<span class="highlight">Soccer</span>.com</h4>
+                    <p>Your first step into the world of soccer. Where fun is the first goal.</p>
+                </div>
+                <div class="footer-grid-item">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">FAQ</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">Affiliate Disclosure</a></li>
+                    </ul>
+                </div>
+                <div class="footer-grid-item">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Player Skills</a></li>
+                        <li><a href="#">Parent Guides</a></li>
+                        <li><a href="#">Coaching Drills</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-grid-item">
+                    <h4>Follow Us</h4>
+                    <p>Connect with us on social media for more tips and updates.</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>© 2024 BeginningSoccer.com | All Rights Reserved | <a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+            </div>
+        </div>
+    </footer>
+
 </body>
 </html>
